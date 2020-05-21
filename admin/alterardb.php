@@ -7,11 +7,12 @@ $nome =       $_POST['nome'];
 $data =    $_POST['data'];
 $hora =        $_POST['hora'];
 $local =        $_POST['local'];
+$URL = $_POST['URL'];
 
 
 $sql2 = mysqli_query($conexao, "SELECT * FROM futuras WHERE id='$id'");
 
-$sql = "UPDATE futuras SET nome='$nome', data='$data', hora='$hora', local='$local' WHERE id=$id";
+$sql = "UPDATE futuras SET nome='$nome', data='$data', hora='$hora', local='$local',URL='$URL' WHERE id=$id";
 
 $altera = mysqli_query($conexao, $sql);
 
