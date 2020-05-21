@@ -22,7 +22,7 @@
         <td><?=$dados['nome'];?></td>
         <td><?=$dados['data'];?></td>
         <td><?=$dados['hora'];?></td>
-        <td><?=$dados['local'];?></td>
+        <td><a href="<?=$dados['URL'];?>"><?=$dados['local'];?></a></td>
     </tr>
     
     <?php } ?>
