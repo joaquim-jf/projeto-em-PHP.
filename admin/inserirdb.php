@@ -8,8 +8,9 @@ $nome = $_POST['nome'];
 $data = $_POST['data'];
 $hora = $_POST['hora'];
 $local = $_POST['local'];
+$URL = $_POST['URL'];
 
-$sql = "INSERT INTO futuras (nome,data,hora,local) VALUES ('$nome', '$data', '$hora','$local')";
+$sql = "INSERT INTO futuras (nome,data,hora,local,URL) VALUES ('$nome', '$data', '$hora','$local','$URL')";
 
 //echo $sql;
 
