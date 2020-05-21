@@ -24,6 +24,10 @@
         <td><input name="local" type="text"/></td>
     </tr>
     <tr>
+        <td>URL: </td>
+        <td><textarea name="URL" value="<?=$dados['URL'];?>"><?=$dados['URL'];?></textarea></td>
+    </tr>
+    <tr>
         <td></td>
         <td><button name="Enviar">Cadastrar</button></td>
     </tr>
