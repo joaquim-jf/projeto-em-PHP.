@@ -2,11 +2,9 @@
 
 <?php
 
-$id = $_POST['id'];
+$id = $_GET['id'];
 
-$sql2 = mysqli_query($conexao, "SELECT * FROM futuras WHERE id='$id'");
-
-$sql = "DELETE FROM futuras WHERE  id = '$id'";
+$sql = "DELETE FROM futuras WHERE  id=$id ";
 
 $del = mysqli_query($conexao, $sql);
 
